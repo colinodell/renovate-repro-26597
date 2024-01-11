@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Group all aws-sdk-go patch updates into a single PR",
+      "matchManagers": ["gomod"],
+      "matchPackagePrefixes": ["github.com/aws/aws-sdk-go"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "aws-sdk-go (patch)"
+    },
+    {
+      "description": "Group all aws-sdk-go minor updates into a single PR",
+      "matchManagers": ["gomod"],
+      "matchPackagePrefixes": ["github.com/aws/aws-sdk-go"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "aws-sdk-go (minor)"
+    }
+  ]
+}
