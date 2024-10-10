@@ -12,7 +12,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/elasticache v1.34.6
 	github.com/aws/aws-sdk-go-v2/service/eventbridge v1.26.6
 	github.com/aws/aws-sdk-go-v2/service/iam v1.28.6
-	github.com/aws/aws-sdk-go-v2/service/kms v1.27.7
+	github.com/aws/aws-sdk-go-v2/service/kms v1.37.2
 	github.com/aws/aws-sdk-go-v2/service/mq v1.20.6
 	github.com/aws/aws-sdk-go-v2/service/opensearch v1.27.1
 	github.com/aws/aws-sdk-go-v2/service/rds v1.66.1
