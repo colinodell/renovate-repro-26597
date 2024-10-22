@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.26.2
 	github.com/aws/aws-sdk-go-v2/credentials v1.16.13
-	github.com/aws/aws-sdk-go-v2/service/autoscaling v1.36.6
+	github.com/aws/aws-sdk-go-v2/service/autoscaling v1.46.0
 	github.com/aws/aws-sdk-go-v2/service/cloudformation v1.42.5
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.142.0
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.24.6
